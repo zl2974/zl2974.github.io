@@ -1,0 +1,161 @@
+---
+title: "This is the plotly Example with Dashboard"
+right:
+    - text: "Home"
+      href: index.html
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+library(flexdashboard)
+data("rest_inspec")
+rest_small =
+  rest_inspec %>%
+  count(dba,street,building,name = "inspection") %>%
+  filter(inspection >= 20) %>%
+  left_join(rest_inspec) %>%
+  mutate(year = lubridate::year(grade_date)) %>% 
+  filter(
+    between(year, 2015, 2017),
+    boro %in% c("MANHATTAN", "BRONX"),
+    score > median(score, na.rm = T)
+  )
+
+rm(rest_inspec)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+```{r}
+accumulate_by <- function(dat, var) {
+  var <- lazyeval::f_eval(var, dat)
+  lvls <- plotly:::getLevels(var)
+  dats <- lapply(seq_along(lvls), function(x) {
+    cbind(dat[var %in% lvls[seq(1, x)], ], frame = lvls[[x]])
+  })
+  dplyr::bind_rows(dats)
+}
+
+rest_small %>%
+  mutate(date = lubridate::floor_date(grade_date, unit = "month")) %>%
+  count(date, boro) %>%
+  accumulate_by(~date) %>% 
+  plot_ly(
+    x = ~ date,
+    y = ~ n,
+    frame = ~as.factor(frame),
+    color = ~ boro,
+    colors = "viridis",
+    alpha = 0.8,
+    type = "scatter",
+    mode = "line"
+  ) %>%
+  layout(
+    xaxis = list(
+      zeroline = F,
+      range = c("2015-01-01", "2017-10-01	"),
+      nticks = 9
+    ),
+    yaxis = list(
+      type = "log",
+      nticks = 3,
+      title = "Number of Inspection"
+    ),
+    title = "Number of Inspection Timespam"
+  ) %>% 
+  animation_opts(frame = 100,
+                 transition = 0,
+                 redraw = FALSE) %>% 
+  animation_slider(hide = T) %>% 
+  animation_button(
+    x=1,
+    xanchor ="right",
+    y=0,
+    yanchor ="bottom"
+  )
+```
+
+Column  {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B 
+
+```{r}
+fig_2 =
+  rest_small %>%
+  right_join(
+    rest_small %>%
+      distinct(dba, .keep_all = T) %>%
+      count(cuisine_description, name = "n_dba") %>%
+      slice_max(n_dba, n = 10)
+  ) %>%
+  mutate(
+    cuisine_description = str_trunc(cuisine_description, 10),
+    cuisine_description =
+      forcats::fct_reorder(cuisine_description, score, .fun = mean)
+  ) %>% 
+  plot_ly(
+    x = ~ cuisine_description,
+    y = ~ score,
+    color = ~ cuisine_description,
+    colors = 'viridis',
+    type = "box",
+    showlegend = T
+  )
+
+fig_2 =
+  fig_2 %>% 
+  layout(
+    yaxis =list(
+      type = "log",
+      title = "Score"
+    ),
+    xaxis = list(
+      tickangle = 90,
+      title =""
+    ),
+    title = "Most Populate Cuisine Score",
+    autosize = T
+  )
+
+fig_2
+```
+
+### Chart C
+
+```{r}
+fig_3 =
+  rest_small %>%
+  count(cuisine_description,boro) %>%
+  mutate(cuisine_description = 
+           str_trunc(cuisine_description,7),
+         cuisine_description =
+           forcats::fct_reorder(
+             cuisine_description,
+             desc(n)
+           )) %>% 
+  plot_ly(x = ~cuisine_description,
+          y = ~n,
+          color = ~boro,
+          type="bar",
+          colors = "viridis") %>% 
+   layout(
+     xaxis = list(title = ""),
+     yaxis = list(type = "log",
+                  nticks = 4,
+                  title = "Inspection counts"),
+     barmode = "group",
+     title = "Inspection by Cuisine Type"
+   )
+
+fig_3
+```
+

@@ -1,0 +1,36 @@
+---
+title: "Jeffrey's World"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Hello World From Jeffrey Liang
+<p class="aligncenter">
+  <img src="./file/me.jpg" alt="Me" style = "width:75%" />
+  </p>
+  <style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+<center><b>This page About Jeffrey Liang</b></center>
+
+# Interests and Specialties
+\ I'm primary interested in statistics method in data science.
+\ Efficient with R and Python coding.
+_More information about my works can visit my school's _
+_[repo](https://github.com/zl2974)_
+_or my personal _
+_[repo](https://github.com/chekfayleung)_
+
+# Personal Backgroud
+\ I'm from Mainland China, Currently pursuing Master degree in Biostatistics in Columbia's Mailman School of Public Health.
+
+
+
+
+
