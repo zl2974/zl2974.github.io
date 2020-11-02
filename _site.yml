@@ -4,7 +4,7 @@ navbar:
   title: "Home"
   left:
     - text: "Dashboard example"
-      href: dashboard.html
+      href: Dashboard.html
   right:
     - text: "About"
       href: about.html
