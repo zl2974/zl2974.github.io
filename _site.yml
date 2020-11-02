@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "Dashboard example"
       href: Dashboard.html
+    - text: "Hypothesis Latex Example"
+      href: https://zl2974.github.io/latexhypothesis.github.io
   right:
     - text: "About"
       href: about.html
