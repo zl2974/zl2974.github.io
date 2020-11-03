@@ -10,8 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Contact Information 
 
-- [github(Columbia)](https://github.com/zl2974)
-- [github(Personal)](https://github.com/chekfayleung)
+- [Github (Columbia)](https://github.com/zl2974)
+- [Github (Personal)](https://github.com/chekfayleung)
 - [Mai](mailto:<zl2974@columbia.edu>)
 
 
@@ -24,20 +24,28 @@ knitr::opts_chunk$set(echo = TRUE)
 - Bachelor of Medical Science, Shandong University, China. [2019]{style="float:right"}
 
 ## RESEARCH EXPEIRENCE
-Case Study: eHealth Resource Allocation in Shandong Province [2019]{style="float:right"}
+- Case Study: eHealth Resource Allocation in Shandong Province [2019]{style="float:right"}
 
-Project: Effect of Insurance Plans on Catastrophic Healthcare Expenditures [2019]{style="float:right"}
+- Project: Effect of Insurance Plans on Catastrophic Healthcare Expenditures [2019]{style="float:right"}
 
-Mapping Health: Tracking Population Health in Shandong Province, China [2018]{style="float:right"}
+- Mapping Health: Tracking Population Health in Shandong Province, China [2018]{style="float:right"}
 
-Project: Urban-Rural Disparities in Catastrophic Health Expenditures in China [2018]{style="float:right"}
+- Project: Urban-Rural Disparities in Catastrophic Health Expenditures in China [2018]{style="float:right"}
 
 ## PROFESSIONAL EXPERIENCE
 
-National Health Development and Research Center of China Health Committee [2019]{style="float:right"}
+- National Health Development and Research Center of China Health Committee
 
-Jinan Center for Disease Control and Prevention [2019]{style="float:right"}
+  Research Assistant [2019]{style="float:right"}
 
-Center of Health Data Science at Shandong University [2018]{style="float:right"}
+- Jinan Center for Disease Control and Prevention 
 
-Qianfoshan Hospital [2017]{style="float:right"}
+  Intern[2019]{style="float:right"}
+
+- Center of Health Data Science at Shandong University
+
+  Research Assistant [2018]{style="float:right"}
+
+- Qianfoshan Hospital
+
+  Intern [2017]{style="float:right"}

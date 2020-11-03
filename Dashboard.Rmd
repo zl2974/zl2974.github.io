@@ -135,15 +135,16 @@ fig_2
 fig_3 =
   rest_small %>%
   count(cuisine_description,boro) %>%
-  mutate(cuisine_description = 
+  mutate(cuisine = 
            str_trunc(cuisine_description,7),
-         cuisine_description =
+         cuisine =
            forcats::fct_reorder(
-             cuisine_description,
+             cuisine,
              desc(n)
            )) %>% 
-  plot_ly(x = ~cuisine_description,
+  plot_ly(x = ~cuisine,
           y = ~n,
+          text = ~cuisine_description,
           color = ~boro,
           type="bar",
           colors = "viridis") %>% 
@@ -153,7 +154,8 @@ fig_3 =
                   nticks = 4,
                   title = "Inspection counts"),
      barmode = "group",
-     title = "Inspection by Cuisine Type"
+     title = "Inspection by Cuisine Type",
+     legend = list(x = 0.8, y = 0.9)
    )
 
 fig_3
