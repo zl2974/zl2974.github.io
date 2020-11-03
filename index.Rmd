@@ -30,6 +30,20 @@ _[repo](https://github.com/chekfayleung)_
 # Personal Backgroud
 \ I'm from Mainland China, Currently pursuing Master degree in Biostatistics in Columbia's Mailman School of Public Health.
 
+\ Play a lot of games(PS4,Switch,PC etc etc you name it). Love to travel and embrace multicultural things.
+
+\ And this pretty much sums up what I do:
+
+<p class="aligncenter">
+  <img src="./file/me_falling.gif" alt="Me Falling" style = "width:30%" />
+  </p>
+  <style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+<center><b>Jeffrey's Falling</b></center>
+
 
 
 
