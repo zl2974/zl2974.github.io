@@ -7,6 +7,9 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    source: embed
+    code_folding: hide
+    theme: flatly
 ---
 
 ```{r setup, include=FALSE}
