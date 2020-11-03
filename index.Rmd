@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
     text-align: center;
 }
 </style>
-<center><b>This page About Jeffrey Liang</b></center>
+<center><b>This page is  ALL  ABOUT  Jeffrey Liang</b></center>
 
 # Interests and Specialties
 \ I'm primary interested in statistics method in data science.
