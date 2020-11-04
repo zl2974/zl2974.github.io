@@ -72,16 +72,17 @@ rest_small %>%
       nticks = 3,
       title = "Number of Inspection"
     ),
-    title = "Number of Inspection Timespam"
+    title = "Number of Inspection \nfrom 2015 to 2017 in Bronx and Manhattan",
+    legend = list(y = 0.5)
   ) %>% 
   animation_opts(frame = 100,
                  transition = 0,
                  redraw = FALSE) %>% 
   animation_slider(hide = T) %>% 
   animation_button(
-    x=1,
+    x=1.2,
     xanchor ="right",
-    y=0,
+    y=0.3,
     yanchor ="bottom"
   )
 ```
@@ -125,8 +126,9 @@ fig_2 =
       tickangle = 90,
       title =""
     ),
-    title = "Most Populate Cuisine Score",
-    autosize = T
+    title = "Most Populate Cuisine's Score \nfrom 2015 to 2017 in Bronx and Manhattan",
+    autosize = T,
+    legend = list(y = 0.1)
   )
 
 fig_2
@@ -157,7 +159,7 @@ fig_3 =
                   nticks = 4,
                   title = "Inspection counts"),
      barmode = "group",
-     title = "Inspection by Cuisine Type",
+     title = "Inspection by Cuisine Type \nfrom 2015 to 2017 in Bronx and Manhattan",
      legend = list(x = 0.8, y = 0.9)
    )
 
