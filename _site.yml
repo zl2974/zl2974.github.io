@@ -1,10 +1,10 @@
-name: "Jeffrey Liang"
+name: "Zhuohui Liang"
 output_dir: "."
 navbar:
   title: "Home"
   left:
-    - text: "Dashboard example"
-      href: Dashboard.html
+    - text: "Project Demo"
+      href: https://zl2974.github.io/hot_coffee/
     - text: "Hypothesis Latex Example"
       href: https://zl2974.github.io/latexhypothesis.github.io
   right:

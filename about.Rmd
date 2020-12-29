@@ -10,18 +10,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Contact Information 
 
-- [Github (Columbia)](https://github.com/zl2974)
-- [Github (Personal)](https://github.com/chekfayleung)
-- [Mai](mailto:<zl2974@columbia.edu>)
-
+- [Mail](mailto:<zl2974@columbia.edu>)
+- [Linkedin](https://www.linkedin.com/in/zhuohui-liang-123108203/)
 
 # RESUME
+*__There's a detailed PDF version [Curriculum vitae](./cv/cv.pdf).__*
 
 ## EDUCATION
 
-- Master of Science Candidate, Columbia University, U.S. [present]{style="float:right"}
+- Master of Science Candidate, Department of Biostatistics,Columbia University, U.S. [06/2020-Present]{style="float:right"}
 
-- Bachelor of Medical Science, Shandong University, China. [2019]{style="float:right"}
+- Bachelor of Medical Science, Shandong University, China. [09/2014-06/2019]{style="float:right"}
+
+## Code examples
+- [Github (Columbia)](https://github.com/zl2974)
+- [Github (Personal)](https://github.com/chekfayleung)
 
 ## RESEARCH EXPEIRENCE
 - Case Study: eHealth Resource Allocation in Shandong Province [2019]{style="float:right"}

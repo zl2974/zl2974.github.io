@@ -1,0 +1,121 @@
+---
+title: "ZHUOHUI LIANG"
+output:  pdf_document
+fontsize : 10pt
+geometry:
+  margin=0.6in
+---
+**GENDER** : MALE \newline
+**WORK PHONE** : +861564129223\newline
+**MOBILE PHONE** : +861564129223\newline
+**EMAIL** : [zl2974@cumc.columbia.edu](mailto:<zl2974@cumc.columbia.edu>)
+\newline
+**Linkedin** : 
+[_Zhuohui Liang_](https://www.linkedin.com/in/zhuohui-liang-123108203/)
+
+## EDUCATION
+- **INSTITUTE : COLUMBIA UNIVERSIY** \hfill New York City, U.S. \newline
+  MAJOR : MASTER CANDIDATE IN BIOSTATISTICS \hfill 09/2020-PRESENT
+- **INSTITUTE : SHANDONG UNIVERSIY** \hfill Jinan, China\newline
+  MAJOR : BACHELOR OF PUBLIC HEALTH \hfill 09/2014-06/2019
+
+## RESEARCH EXPERIENCE
+- **Case Study: eHealth Resource Allocation in Shandong Province** 
+\hfill Jinan, China\newline
+  _Lead Researcher; Advisor: Prof. Jiajia Li_ \hfill 01/2019-06/2019
+  * Led a research team to collect data on the use of electronic health (eHealth) resources from an
+online healthcare community involving more than 441,000 doctors and 31 provinces in China,
+by using Python packages, such as lxml and pandas.
+  * Cleaned and analyzed data with R-ggplot; utilized techniques such as visualizing the spatial
+distribution and density of highly-ranked hospitals and experienced professionals.
+  * Performed statistical analysis on eHealth online-to-offline spillover effects using the Spatial
+Durbin Panel Model to reduce autocorrelation by the Pesaran CD test; improved model fitness.
+  * Identified the spillover effects of eHealth services on health care inequity; provided ideas and
+strategies to address healthcare disparities using widely accessible eHealth resources.
+  * Drafted and submitted a report to the 2020 Health Technology Assessment International
+Conference and 2019 Global Young Scholars Forum on Health Management
+
+- **Project: Effect of Insurance Plans on Catastrophic Healthcare Expenditures**
+\hfill Jinan, China\newline
+  _Lead Researcher; Advisor: Prof. Jiajia Li_ \hfill 10/2018-06/2019
+  * Led a research group to conduct a longitudinal study on the effects of different insurance types
+on catastrophic healthcare expenditures.
+  * Conducted data cleansing and validation using R package – tidyverse; processed information
+from 44,417 observational sessions and identified 3,300 missing units of data and outliers.
+  * Collected information on geographical locations with Google Maps API and matched this with
+the insurance coverage provided by each plan as an instrumental variable for addressing the
+endogeneity introduced by insurance selection bias.
+  * Performed two-stage least square regression analysis to build a model with instrumental
+variables using R package -AER; concluded that China's new health insurance program has
+decreased the odds of catastrophic health expenditures but has failed to control total health
+expenditures.
+  * Provided quantitative evidence to forecast the financial expenditures of different healthcare
+insurance plans and to provide a reference for other researchers in the selection of instrumental
+variables.
+
+- **Mapping Health: Tracking Population Health in Shandong Province, China** 
+\hfill Jinan, China\newline
+_Research Assistant; Advisor: Dr. Fuzhong Xue_ \hfill 06/2018-11/2018
+  * Refined medical information from more than 161 handbooks on atrial fibrillation and
+hypercholesterolemia; coded them into a graph database that covered more than 3,000 specific
+nodes and relationships.
+  * Designed and constructed a Knowledge Graph in Neo4j, including processes for screening,
+diagnosis, treatment, and education.
+
+- **Urban-Rural Disparities in Catastrophic Health Expenditures in China**
+\hfill Jinan,China\newline
+_Lead Researcher; Advisor: Prof. Jiajia Li_ \hfill 03/2018-10/2018
+  * Compared datasets with 44,417 observational sessions with individuals and 11,130
+observational sessions with households from the ten waves of the China Health and Nutrition
+Survey (CHNS); examined registered residency status using R package-tidyverse.
+  * Calculated prevalence of catastrophic healthcare expenditures since 1989 in households with
+chronic disease patients, and used this as a response variable; created an interaction of time with
+rural-urban identities as an independent variable to use in future regression analysis.
+  * Performed logistics regression, concluding that healthcare disparities have diminished due to the
+development of financial protection and rising standard of living, but that actual risk has not
+been significantly reduced.
+  * Conducted a review of China's Health Reform progress and promoted critical illness insurance
+among rural populations.
+  * Drafted a paper summarizing findings which was accepted by the 2019 International Health
+Economics Association and 2018 Healthcare Management Forum, hosted by Chinese Preventive
+Medicine Association.
+
+## WORK EXPERIENCE
+- National Health Development and Research Center of China Health Committee \hfill Beijing, China \newline
+  _INTERN_ \hfill 06/2019-06/2020
+  * Provide advice on sampling method, model selection, and result interpretation as well as data
+visualization.
+  * Estimate national health expenditure in 2019, and analyze the distribution of different
+demographic characteristics, such as age and gender, to optimize healthcare resource allocation.
+  * Build ICD-10 auto-coding and data format auto-standardizing in Python for annual health
+accounting, improving working efficiency, data accuracy, and integrity.
+  * Conduct a literature review on methods for detecting healthcare fraud using data mining; provide
+data support for a pilot feasibility project.
+  * Participated in data visualization of healthcare indicators and healthcare access for an
+unpublished review of 10 years of healthcare reform in China.
+  * Assisted with study design and data processing in Python for two confidential projects
+
+- Jinan Center for Disease Control and Prevention\hfill Jinan, China \newline
+  _INTERN_ \hfill 03/2019-05/2019
+  * Completed a three-month rotation with various departments, including Chronic Diseases
+Control, Occupation Disease Control, and Infectious Disease Control Centers.
+  * Monitored survival data in patients who presented with emergency cases and chronic diseases
+in Jinan using R programming, following established procedures.
+
+- Center of Health Data Science at Shandong University\hfill Jinan, China \newline
+  _INTERN_  \hfill 06/2018-11/2018
+  * Conducted research on covariates adjustment and single nucleotide polymorphisms (SNPs)
+identification in the Genome-wide Association Study (GWAS).
+  * Reviewed more than 200 published articles on cancer and cardiovascular diseases, categorized
+them based on studied traits.
+  * Designed and constructed a database for all the articles, documenting specific SNPs, statistical
+methods, adjusted covariates, interval validation results, and other parameters of each study
+
+- Qianfoshan Hospital\hfill Jinan, China \newline
+  _INTERN_ \hfill 05/2017-10/2017 
+  * Monitored nutritional and health status of patients and collaborated with surgeons from the spine
+surgery department, gynecology department, obstetrics department, and pediatrics department.
+
+## Skills
+- Statistical Computing: Python(& Tensorflow), R
+- Languages : Mandarin and Cantonense Chinese(Native) and English(Fluent)

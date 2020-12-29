@@ -1,48 +1,46 @@
 ---
-title: "Jeffrey's World"
-output: html_document
+title: "Liang, Zhuohui's Profile"
+output: 
+  html_document:
+    toc_float: false
+    toc : false
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
-### Hello World From Jeffrey Liang
+### Hello World From Zhuohui Liang
 <p class="aligncenter">
-  <img src="./file/me.jpg" alt="Me" style = "width:75%" />
+  <img src="./file/mmexport1550238730511.jpg" alt="Me" style = "width:75%" />
   </p>
   <style>
 .aligncenter {
     text-align: center;
 }
 </style>
-<center><b>This page is  ALL  ABOUT  Jeffrey Liang</b></center>
+<center><b>This page is  ALL  ABOUT  Zhuohui Liang</b></center>
 
-# Interests and Specialties
-\ I'm primary interested in statistics method in data science.
-\ Efficient with R and Python coding.
-_More information about my works can visit my school's _
+# Introduction
+\ My name is **Zhuohui(Jeffrey) Liang**, a Chinese travel lover now located in 
+New York City. 
+<br><br>
+\ I'm first year Master of Science student at Columbia University in New York 
+City. My interest is in statistical method in data science, specifically the 
+mathematics reasoning behind every method in use and how to maximizing result 
+from the data with specific method. 
+<br><br>
+\ Before joining Columbia for further education, I had data analytic and coding 
+experience in the fields of ICD-10 classification system building, 
+Health accounting, 
+eHealth allocation and health disparity in China.
+<br><br><br>
+_More information about my works can go to _
+_[About](./about.html)_
+_or visit my school's _
 _[repo](https://github.com/zl2974)_
 _or my personal _
 _[repo](https://github.com/chekfayleung)_
-
-# Personal Backgroud
-\ I'm from Mainland China, Currently pursuing Master degree in Biostatistics in Columbia's Mailman School of Public Health.
-
-\ Play a lot of games(PS4,Switch,PC etc etc you name it). Love to travel and embrace multicultural things.
-
-\ And this pretty much sums up what I do:
-
-<p class="aligncenter">
-  <img src="./file/me_falling.gif" alt="Me Falling" style = "width:30%" />
-  </p>
-  <style>
-.aligncenter {
-    text-align: center;
-}
-</style>
-<center><b>Jeffrey's Falling</b></center>
 
 
 
