@@ -89,7 +89,7 @@ visualization.
 demographic characteristics, such as age and gender, to optimize healthcare resource allocation.
   * Build ICD-10 auto-coding and data format auto-standardizing in Python for annual health
 accounting, improving working efficiency, data accuracy, and integrity.
-  * Conduct a literature review on methods for detecting healthcare fraud using data mining; provide
+  * Conduct a literature review on data mining methods for detecting healthcare fraud; provide
 data support for a pilot feasibility project.
   * Participated in data visualization of healthcare indicators and healthcare access for an
 unpublished review of 10 years of healthcare reform in China.
@@ -116,6 +116,6 @@ methods, adjusted covariates, interval validation results, and other parameters 
   * Monitored nutritional and health status of patients and collaborated with surgeons from the spine
 surgery department, gynecology department, obstetrics department, and pediatrics department.
 
-## Skills
+## SKILLS
 - Statistical Computing: Python(& Tensorflow), R
 - Languages : Mandarin and Cantonense Chinese(Native) and English(Fluent)
