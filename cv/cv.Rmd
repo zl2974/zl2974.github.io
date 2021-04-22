@@ -6,7 +6,7 @@ geometry:
   margin=0.6in
 ---
 **GENDER** : MALE \newline
-**WORK PHONE** : +861564129223\newline
+**WORK PHONE** : +1 (646) 496-3283\newline
 **MOBILE PHONE** : +861564129223\newline
 **EMAIL** : [zl2974@cumc.columbia.edu](mailto:<zl2974@cumc.columbia.edu>)
 \newline

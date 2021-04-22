@@ -1,0 +1,71 @@
+---
+output: pdf_document
+fontsize : 10pt
+geometry:
+  margin=0.5in
+---
+\begin{center}
+\begin{LARGE}
+\begin{b}
+ZHUOHUI LIANG
+\end{b}
+\end{LARGE}
+\end{center}
+
+-----------   -----------------------------------------------------------------------
+mail          [zl2974@cumc.columbia.edu](mailto:<zl2974@cumc.columbia.edu>)
+Linkdin       [_Zhuohui Liang_](https://www.linkedin.com/in/zhuohui-liang-123108203/)
+-----------   -----------------------------------------------------------------------
+
+## EDUCATION:
+**Columbia University** \hfill New York City, U.S. \newline
+  Major : Master Candidate in Biostatistics \hfill 09/2020-PRESENT\newline
+**Shandong University** \hfill Jinan, China\newline
+  Major: Bachelor of Public Health \hfill 09/2014-06/2019
+  
+## WORK EXPERIENCE:
+- **National Health Development and Research Center of China Health Committee** \hfill Beijing, China \newline
+  _Intern_ \hfill 06/2019-06/2020
+  * Provide advice on sampling method, model selection, and result interpretation as well as data visualization on project of 
+  national health accounting, national COVID-19's economic impact and expense, 
+  healthcare fraud detection and _Healthcare Reform Review_.
+  * Provide design, and build ICD-10 auto-coding and format auto-standarding module for 
+  health accounting data cleasning with python
+  * Estimate national health expenditure in 2019, and analyze the distribution of different
+demographic characteristics, such as age and gender, to optimize healthcare resource allocation.
+
+- **Jinan Center for Disease Control and Prevention**\hfill Jinan, China \newline
+  _Intern_ \hfill 03/2019-05/2019
+  * Completed a three-month rotation with various departments, including Chronic Diseases
+Control, Occupation Disease Control, and Infectious Disease Control Centers.
+  * Monitored survival data in patients who presented with emergency cases and chronic diseases
+in Jinan using R programming, following established procedures.
+  
+## RESEARCH EXPERIENCE:
+- **Case Study: eHealth Resource Allocation in Shandong Province** 
+\hfill Jinan, China\newline
+  _Lead Researcher; Advisor: Prof. Jiajia Li_ \hfill 01/2019-06/2019
+  * Scrape, cleansing and analyzing eHealth allocation in Shandong
+  * Identified the spillover effects of eHealth services on health care inequity; provided ideas and
+strategies to address healthcare disparities using widely accessible eHealth resources.
+
+- **Project: Effect of Insurance Plans on Catastrophic Healthcare Expenditures**
+\hfill Jinan, China\newline
+  _Lead Researcher; Advisor: Prof. Jiajia Li_ \hfill 10/2018-06/2019
+  * Collected geographical locations with Google Maps API and matched with
+insurance coverage of each plan as an instrumental variable for addressing the
+endogeneity introduced by insurance selection bias.
+  *  Performed regression analysis with instrumental variables and identified China's new health insurance program has
+decreased the odds of catastrophic health expenditures but has failed to control total health
+expenditures.
+  
+- **Mapping Health: Tracking Population Health in Shandong Province, China** 
+\hfill Jinan, China\newline
+_Research Assistant; Advisor: Dr. Fuzhong Xue_ \hfill 06/2018-11/2018
+  * Refined medical information from more than 161 handbooks on atrial fibrillation and
+hypercholesterolemia; coded them into a graph database that covered more than 3,000 specific nodes and relationships.
+  
+## SKILLS:
+* Data collection, cleasning, analysis and presenting;
+* Statistical computing and analysis : Python(with Tensorflow) and R;
+* Languages : Mandarin and Cantonense Chinese(Native) and English(Fluent)

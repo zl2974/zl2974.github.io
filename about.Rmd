@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - [Linkedin](https://www.linkedin.com/in/zhuohui-liang-123108203/)
 
 # RESUME
-*__There's a detailed PDF version [Curriculum vitae](./cv/cv.pdf).__*
+*__There's a detailed PDF version [Curriculum vitae](./cv/cv.pdf). and  [RESUME](./resume/Resume-Zhuohui-Liang.pdf)__*
 
 ## EDUCATION
 
