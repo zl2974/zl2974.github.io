@@ -3,8 +3,15 @@ output_dir: "."
 navbar:
   title: "Home"
   left:
-    - text: "Project Demo"
+  - text: "Projects"
+    menu:
+    - text: "Risky Coffee(P8105 Final projects)"
       href: https://zl2974.github.io/hot_coffee/
+    - text: "Single Cell Clusting"
+      href: https://www.github.com/zl2974/P8160_project_2_gp2/
+    - text: "Predicting Model for Heart Disease"
+      href: https://www.github.com/zl2974/P8106_Final/
+    
   right:
     - text: "About"
       href: about.html

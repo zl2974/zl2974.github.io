@@ -19,21 +19,22 @@ knitr::opts_chunk$set(echo = TRUE)
     text-align: center;
 }
 </style>
-<center><b>This page is  ALL  ABOUT  Zhuohui Liang</b></center>
+<center><b>This page is  ALL  ABOUT  Zhuohui Liang</b>(old photo, it hard to have a no-mask-on photo on 2020/2021)</center>
 
 # Introduction
+
 \ My name is **Zhuohui(Jeffrey) Liang**, a Chinese travel lover now located in 
 New York City. 
 <br><br>
-\ I'm first year Master of Science student at Columbia University in New York 
-City. My interest is in statistical method in data science, specifically the 
-mathematics reasoning behind every method in use and how to maximizing result 
-from the data with specific method. 
+\ I'm Master of Science student at Columbia University in New York 
+City. My interest is in statistical method in data science, specifically fusion on similarity network and clustering as well as propagation method on the network based on Graph Theorem. 
 <br><br>
-\ Before joining Columbia for further education, I had data analytic and coding 
-experience in the fields of ICD-10 classification system building, 
+\ Before joining Columbia for further training, I had data analytic and coding 
+experience in the fields of 
+ICD-10 classification system building, 
+EHR Data analysis,
 Health accounting, 
-eHealth allocation and health disparity in China.
+eHealth allocation and health resource disparity in China.
 <br><br><br>
 _More information about my works can go to _
 _[About](./about.html)_
