@@ -18,6 +18,9 @@ geometry:
   MAJOR : MASTER CANDIDATE IN BIOSTATISTICS \hfill 09/2020-PRESENT
 - **INSTITUTE : SHANDONG UNIVERSIY** \hfill Jinan, China\newline
   MAJOR : BACHELOR OF PUBLIC HEALTH \hfill 09/2014-06/2019
+  
+## PUBLICATION
+- Appraisal of China’s response to the COVID-19 outbreak compared with that to the SARS outbreak. _Frontiers in Public Health_
 
 ## RESEARCH EXPERIENCE
 - **Case Study: eHealth Resource Allocation in Shandong Province** 
