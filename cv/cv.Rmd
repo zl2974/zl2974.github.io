@@ -19,9 +19,9 @@ header-includes:
 
 ## EDUCATION
 - **INSTITUTE : COLUMBIA UNIVERSIY** \hfill New York City, U.S. \newline
-  MAJOR : MASTER CANDIDATE IN BIOSTATISTICS \hfill 09/2020-PRESENT
+  MAJOR : MASTER CANDIDATE IN BIOSTATISTICS(4.07/4.3) \hfill 09/2020-PRESENT
 - **INSTITUTE : SHANDONG UNIVERSIY** \hfill Jinan, China\newline
-  MAJOR : BACHELOR OF PUBLIC HEALTH \hfill 09/2014-06/2019
+  MAJOR : BACHELOR OF PUBLIC HEALTH(4.32/5) \hfill 09/2014-06/2019
   
 ## PUBLICATION
 
@@ -32,16 +32,17 @@ header-includes:
 - **Department of Biostatistics, Columbia University**
 \hfill New York\newline
   _Research Assistant, Advisor: Prof. Shuang Wang_ \hfill 04/2021-PRESENT\newline
-   **Methodology Developing on Multi-omic Association and Clustering **
+  **Methodology Developing on Multi-omic Association and Clustering **
   * Literature review on dimensional reduction, discrete time random walk and multi-view clustering method
   * Design simulation to test and compare existing multi-view clustering method, ie. Similarity Network Fusion(SNF), Multi-view Clustering Without Parameter(COMIC) etc.; and association boosting method, ie. Disease-Specific Network Enhancement Prioritization(DISNEP), Gene-wanderer etc.
-  * Improving above-mentioned methods with alternative manifold learning, multi-view fusion or consensus regulation
+  * Improving above-mentioned methods with alternative manifold learning for new data representation, smoothing learned similarity matrix, multi-view fusion or consensus regulation on clustering result
   
 - **Department of Biostatistics, Columbia University**\hfill New York\newline
   _Research Assistant, Advisor: Prof. Ying Wei, Prof. Yifei Sun_ \hfill 04/2021-PRESENT\newline
   **Predicting Patient Coherence with Multivariate Random Forest**
   * Design and build costumed multivariate random forest algorithm for interval drug compliance prediction
   * Design simulation study to test algorithm performance
+  * Manuscript writing
 
 - **Department of Social Health, Shandong University**
 \hfill Jinan, China\newline
