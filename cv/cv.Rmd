@@ -4,11 +4,15 @@ output:  pdf_document
 fontsize : 10pt
 geometry:
   margin=0.6in
+header-includes:
+    - \usepackage{setspace}\singlespacing
+    - \usepackage{float}
 ---
-**GENDER** : MALE \newline
 **WORK PHONE** : +1 (646) 496-3283\newline
 **MOBILE PHONE** : +861564129223\newline
-**EMAIL** : [zl2974@cumc.columbia.edu](mailto:<zl2974@cumc.columbia.edu>)
+**EMAIL 1** : [zl2974@cumc.columbia.edu](mailto:<zl2974@cumc.columbia.edu>)
+\newline
+**EMAIL 2** : [jeffreyliang1995@outlook.com](mailto:<jeffreyliang1995@outlook.com>)
 \newline
 **Linkedin** : 
 [_Zhuohui Liang_](https://www.linkedin.com/in/zhuohui-liang-123108203/)
@@ -20,13 +24,30 @@ geometry:
   MAJOR : BACHELOR OF PUBLIC HEALTH \hfill 09/2014-06/2019
   
 ## PUBLICATION
-- Appraisal of China’s response to the COVID-19 outbreak compared with that to the SARS outbreak. _Frontiers in Public Health_
+
+- Appraisal of China’s response to the COVID-19 outbreak compared with that to the SARS outbreak. _Frontiers in Public Health_ [doi:/10.3389/fpubh.2021.679540](https://doi.org/10.3389/fpubh.2021.679540)
 
 ## RESEARCH EXPERIENCE
-- **Case Study: eHealth Resource Allocation in Shandong Province** 
+
+- **Department of Biostatistics, Columbia University**
+\hfill New York\newline
+  _Research Assistant, Advisor: Prof. Shuang Wang_ \hfill 04/2021-PRESENT\newline
+   **Methodology Developing on Multi-omic Association and Clustering **
+  * Literature review on dimensional reduction, discrete time random walk and multi-view clustering method
+  * Design simulation to test and compare existing multi-view clustering method, ie. Similarity Network Fusion(SNF), Multi-view Clustering Without Parameter(COMIC) etc.; and association boosting method, ie. Disease-Specific Network Enhancement Prioritization(DISNEP), Gene-wanderer etc.
+  * Improving above-mentioned methods with alternative manifold learning, multi-view fusion or consensus regulation
+  
+- **Department of Biostatistics, Columbia University**\hfill New York\newline
+  _Research Assistant, Advisor: Prof. Ying Wei, Prof. Yifei Sun_ \hfill 04/2021-PRESENT\newline
+  **Predicting Patient Coherence with Multivariate Random Forest**
+  * Design and build costumed multivariate random forest algorithm for interval drug compliance prediction
+  * Design simulation study to test algorithm performance
+
+- **Department of Social Health, Shandong University**
 \hfill Jinan, China\newline
-  _Lead Researcher; Advisor: Prof. Jiajia Li_ \hfill 01/2019-06/2019
-  * Led a research team to collect data on the use of electronic health (eHealth) resources from an
+  _Research Assistant, Advisor: Prof. Jiajia Li_ \hfill 01/2019-06/2019\newline
+  **Case Study: eHealth Resource Allocation Inequality in Shandong Province** 
+  * Led a research group to collect data on the use of electronic health (eHealth) resources from an
 online healthcare community involving more than 441,000 doctors and 31 provinces in China,
 by using Python packages, such as lxml and pandas.
   * Cleaned and analyzed data with R-ggplot; utilized techniques such as visualizing the spatial
@@ -38,9 +59,10 @@ strategies to address healthcare disparities using widely accessible eHealth res
   * Drafted and submitted a report to the 2020 Health Technology Assessment International
 Conference and 2019 Global Young Scholars Forum on Health Management
 
-- **Project: Effect of Insurance Plans on Catastrophic Healthcare Expenditures**
+- **Department of Social Health, Shandong University**
 \hfill Jinan, China\newline
-  _Lead Researcher; Advisor: Prof. Jiajia Li_ \hfill 10/2018-06/2019
+  _Research Assistant, Advisor: Prof. Jiajia Li_ \hfill 10/2018-06/2019\newline
+  **Project: Effect of Insurance Plans on Catastrophic Healthcare Expenditures**
   * Led a research group to conduct a longitudinal study on the effects of different insurance types
 on catastrophic healthcare expenditures.
   * Conducted data cleansing and validation using R package – tidyverse; processed information
@@ -56,69 +78,74 @@ expenditures.
 insurance plans and to provide a reference for other researchers in the selection of instrumental
 variables.
 
-- **Mapping Health: Tracking Population Health in Shandong Province, China** 
-\hfill Jinan, China\newline
-_Research Assistant; Advisor: Dr. Fuzhong Xue_ \hfill 06/2018-11/2018
-  * Refined medical information from more than 161 handbooks on atrial fibrillation and
-hypercholesterolemia; coded them into a graph database that covered more than 3,000 specific
-nodes and relationships.
-  * Designed and constructed a Knowledge Graph in Neo4j, including processes for screening,
-diagnosis, treatment, and education.
+<!-- - **Mapping Health: Tracking Population Health in Shandong Province, China**  -->
+<!-- \hfill Jinan, China\newline -->
+<!-- _Research Assistant; Advisor: Dr. Fuzhong Xue_ \hfill 06/2018-11/2018 -->
+<!--   * Refined medical information from more than 161 handbooks on atrial fibrillation and -->
+<!-- hypercholesterolemia; coded them into a graph database that covered more than 3,000 specific -->
+<!-- nodes and relationships. -->
+<!--   * Designed and constructed a Knowledge Graph in Neo4j, including processes for screening, -->
+<!-- diagnosis, treatment, and education. -->
 
-- **Urban-Rural Disparities in Catastrophic Health Expenditures in China**
-\hfill Jinan,China\newline
-_Lead Researcher; Advisor: Prof. Jiajia Li_ \hfill 03/2018-10/2018
-  * Compared datasets with 44,417 observational sessions with individuals and 11,130
-observational sessions with households from the ten waves of the China Health and Nutrition
-Survey (CHNS); examined registered residency status using R package-tidyverse.
-  * Calculated prevalence of catastrophic healthcare expenditures since 1989 in households with
-chronic disease patients, and used this as a response variable; created an interaction of time with
-rural-urban identities as an independent variable to use in future regression analysis.
-  * Performed logistics regression, concluding that healthcare disparities have diminished due to the
-development of financial protection and rising standard of living, but that actual risk has not
-been significantly reduced.
-  * Conducted a review of China's Health Reform progress and promoted critical illness insurance
-among rural populations.
-  * Drafted a paper summarizing findings which was accepted by the 2019 International Health
-Economics Association and 2018 Healthcare Management Forum, hosted by Chinese Preventive
-Medicine Association.
+<!-- - **Urban-Rural Disparities in Catastrophic Health Expenditures in China** -->
+<!-- \hfill Jinan,China\newline -->
+<!-- _Lead Researcher; Advisor: Prof. Jiajia Li_ \hfill 03/2018-10/2018 -->
+<!--   * Compared datasets with 44,417 observational sessions with individuals and 11,130 -->
+<!-- observational sessions with households from the ten waves of the China Health and Nutrition -->
+<!-- Survey (CHNS); examined registered residency status using R package-tidyverse. -->
+<!--   * Calculated prevalence of catastrophic healthcare expenditures since 1989 in households with -->
+<!-- chronic disease patients, and used this as a response variable; created an interaction of time with -->
+<!-- rural-urban identities as an independent variable to use in future regression analysis. -->
+<!--   * Performed logistics regression, concluding that healthcare disparities have diminished due to the -->
+<!-- development of financial protection and rising standard of living, but that actual risk has not -->
+<!-- been significantly reduced. -->
+<!--   * Conducted a review of China's Health Reform progress and promoted critical illness insurance -->
+<!-- among rural populations. -->
+<!--   * Drafted a paper summarizing findings which was accepted by the 2019 International Health -->
+<!-- Economics Association and 2018 Healthcare Management Forum, hosted by Chinese Preventive -->
+<!-- Medicine Association. -->
 
 ## WORK EXPERIENCE
+
+- Mailman School of Public Health-Columbia University \hfill New York
+\newline
+ _Teaching Assistant_ \hfill 06/2021-PRESENT
+  * Course planning, material preparation and teaching lab session for `MIMIC Data Preparation and Sparse Coding` and  `Instrumental Variable Analysis Method` for High-Dimensional EHR data Bootcamp
+  * Course planning, office hour for Data Science
+
 - National Health Development and Research Center of China Health Committee \hfill Beijing, China \newline
   _INTERN_ \hfill 06/2019-06/2020
   * Provide advice on sampling method, model selection, and result interpretation as well as data
 visualization.
   * Estimate national health expenditure in 2019, and analyze the distribution of different
 demographic characteristics, such as age and gender, to optimize healthcare resource allocation.
-  * Build ICD-10 auto-coding and data format auto-standardizing in Python for annual health
+  * Build ICD-10 auto-coding and data format auto-standardizing algorithm with Python for annual health
 accounting, improving working efficiency, data accuracy, and integrity.
   * Conduct a literature review on data mining methods for detecting healthcare fraud; provide
 data support for a pilot feasibility project.
-  * Participated in data visualization of healthcare indicators and healthcare access for an
-unpublished review of 10 years of healthcare reform in China.
+  * Participated in data visualization of healthcare metrics and healthcare access for _Development Report On Health Reform In China(2020)_(ISBN:9787520164412).
   * Assisted with study design and data processing in Python for two confidential projects
 
-- Jinan Center for Disease Control and Prevention\hfill Jinan, China \newline
-  _INTERN_ \hfill 03/2019-05/2019
-  * Completed a three-month rotation with various departments, including Chronic Diseases
-Control, Occupation Disease Control, and Infectious Disease Control Centers.
-  * Monitored survival data in patients who presented with emergency cases and chronic diseases
-in Jinan using R programming, following established procedures.
+<!-- - Jinan Center for Disease Control and Prevention\hfill Jinan, China \newline -->
+<!--   _INTERN_ \hfill 03/2019-05/2019 -->
+<!--   * Completed a three-month rotation with various departments, including Chronic Diseases -->
+<!-- Control, Occupation Disease Control, and Infectious Disease Control Centers. -->
+<!--   * Monitored survival data in patients who presented with emergency cases and chronic diseases -->
+<!-- in Jinan using R programming, following established procedures. -->
 
-- Center of Health Data Science at Shandong University\hfill Jinan, China \newline
-  _INTERN_  \hfill 06/2018-11/2018
-  * Conducted research on covariates adjustment and single nucleotide polymorphisms (SNPs)
-identification in the Genome-wide Association Study (GWAS).
-  * Reviewed more than 200 published articles on cancer and cardiovascular diseases, categorized
-them based on studied traits.
-  * Designed and constructed a database for all the articles, documenting specific SNPs, statistical
-methods, adjusted covariates, interval validation results, and other parameters of each study
+<!-- - Center of Health Data Science at Shandong University\hfill Jinan, China \newline -->
+<!--   _INTERN_  \hfill 06/2018-11/2018 -->
+<!--   * Conducted research on covariates adjustment and single nucleotide polymorphisms (SNPs) -->
+<!-- identification in the Genome-wide Association Study (GWAS). -->
+<!--   * Reviewed more than 200 published articles on cancer and cardiovascular diseases, categorized -->
+<!-- them based on studied traits. -->
+<!--   * Designed and constructed a database for all the articles, documenting specific SNPs, statistical -->
+<!-- methods, adjusted covariates, interval validation results, and other parameters of each study -->
 
-- Qianfoshan Hospital\hfill Jinan, China \newline
-  _INTERN_ \hfill 05/2017-10/2017 
-  * Monitored nutritional and health status of patients and collaborated with surgeons from the spine
-surgery department, gynecology department, obstetrics department, and pediatrics department.
+<!-- - Qianfoshan Hospital\hfill Jinan, China \newline -->
+<!--   _INTERN_ \hfill 05/2017-10/2017  -->
+<!--   * Monitored nutritional and health status of patients and collaborated with surgeons from the spine -->
+<!-- surgery department, gynecology department, obstetrics department, and pediatrics department. -->
 
 ## SKILLS
-- Statistical Computing: Python(& Tensorflow), R
-- Languages : Mandarin and Cantonense Chinese(Native) and English(Fluent)
+- Computing: Python, R, Linux
