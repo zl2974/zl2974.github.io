@@ -40,7 +40,7 @@ header-includes:
 - **Department of Biostatistics, Columbia University**\hfill New York\newline
   _Research Assistant, Advisor: Prof. Ying Wei, Prof. Yifei Sun_ \hfill 04/2021-PRESENT\newline
   **Predicting Patient Coherence with Multivariate Random Forest**
-  * Design and build costumed multivariate random forest algorithm for interval drug compliance prediction
+  * Design and build costumed multivariate random forest algorithm for interval drug compliance prediction for a incomplete and class imbalance longitudinal
   * Design simulation study to test algorithm performance
   * Manuscript writing
 
