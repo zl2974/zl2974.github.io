@@ -51,7 +51,7 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
   _Research Assistant, Advisor: Prof. Ying Wei, Prof. Yifei Sun_ \hfill 09/2021-PRESENT\newline
   **Predicting Patient Coherence with Multivariate Random Forest**
   * Design and code weighted multivariate random forest algorithm independently to predict medication adherence in a interval for an incomplete and class imbalance longitudinal data;
-  * Modeling missing pattern of the response variables under MAR, and boosting compliance prediction model's performance with the modeled missing observation probability;
+  * Model missing pattern of the response variables under MAR, and boosting compliance prediction model's performance with the modeled missing observation probability;
   * Ensemble all trees with Hidden Markov Chains model for a dynamic prediction model;
   * Design simulation study to test algorithm performance and analysis on the data, we found that using IPW to adjust for missing data improves the prediction performance of our multivariate random forest in simulation and our adherence history data;
   * Manuscript writing
