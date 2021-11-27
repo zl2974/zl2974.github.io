@@ -50,7 +50,7 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
   * Design and code weighted multivariate random forest algorithm independently to predict medication adherence in a interval for an incomplete medication adherence history  data;
   * Model missing pattern of the response variables under Missing At Random(MAR) assumption, and boosting compliance prediction model's performance with the predicted missing observation probability;
   * Ensemble all trees with Hidden Markov Chains model for a dynamic prediction model;
-  * Design simulation study to test algorithm performance and analysis on the data, we found that using IPW to adjust for missing data improves the prediction performance of our multivariate random forest in under MAR simulation and our adherence history data;
+  * Design simulation study to test algorithm performance and analysis on the data, we found that using IPW to adjust for missing data improves the prediction performance of our multivariate random forest under MAR in simulation and our adherence history data;
   * Manuscript writing
 
 - **Department of Social Health, Shandong University**
