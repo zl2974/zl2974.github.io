@@ -33,9 +33,6 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
 - **INSTITUTE : SHANDONG UNIVERSIY** \hfill Jinan, China\newline
   MAJOR : BACHELOR OF PUBLIC HEALTH(4.32/5) \hfill 09/2014-06/2019
   
-## PUBLICATION
-
-- Appraisal of China’s response to the COVID-19 outbreak compared with that to the SARS outbreak. _Frontiers in Public Health_ [doi:/10.3389/fpubh.2021.679540](https://doi.org/10.3389/fpubh.2021.679540)
 
 ## RESEARCH EXPERIENCE
 
@@ -45,30 +42,26 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
   **Methodology Developing on Multi-omic Association and Clustering **
   * Literature review on dimensional reduction, discrete time random walk and multi-view clustering and association singal boosting method
   * Design simulation to test and compare existing multi-view clustering method, ie. Similarity Network Fusion(SNF), Multi-view Clustering Without Parameter(COMIC), Partition-level Multiview Subspace Clustering(PSMC), Diversity-Induce Multiview Clustering(DiMSC) and etc.; and association boosting method, ie. Disease-Specific Network Enhancement Prioritization(DISNEP), Gene-wanderer etc.
-  * Improving above-mentioned methods with alternative manifold learning for new data representation, smoothing learned similarity matrix, multi-view fusion or consensus regulation, complementary regulation on clustering result
+  * Experiment above-mentioned methods with alternative manifold learning for new data representation, smoothing learned similarity matrix with t-step self random walk, multi-view fusion or consensus regulation, complementary regulation on clustering result to develop a method that can identify true number of clusters and clustering result under scenario which different view provide information only to find partial subtypes.
   
 - **Department of Biostatistics, Columbia University**\hfill New York\newline
   _Research Assistant, Advisor: Prof. Ying Wei, Prof. Yifei Sun_ \hfill 09/2021-PRESENT\newline
-  **Predicting Patient Coherence with Multivariate Random Forest**
+  **Predicting Patient Aherence with Multivariate Random Forest**
   * Design and code weighted multivariate random forest algorithm independently to predict medication adherence in a interval for an incomplete medication adherence history  data;
-  * Model missing pattern of the response variables under MAR, and boosting compliance prediction model's performance with the modeled missing observation probability;
+  * Model missing pattern of the response variables under Missing At Random(MAR) assumption, and boosting compliance prediction model's performance with the predicted missing observation probability;
   * Ensemble all trees with Hidden Markov Chains model for a dynamic prediction model;
-  * Design simulation study to test algorithm performance and analysis on the data, we found that using IPW to adjust for missing data improves the prediction performance of our multivariate random forest in simulation and our adherence history data;
+  * Design simulation study to test algorithm performance and analysis on the data, we found that using IPW to adjust for missing data improves the prediction performance of our multivariate random forest in under MAR simulation and our adherence history data;
   * Manuscript writing
 
 - **Department of Social Health, Shandong University**
 \hfill Jinan, China\newline
   _Research Assistant, Advisor: Prof. Jiajia Li_ \hfill 01/2019-06/2019\newline
   **Case Study: eHealth Resource Allocation Inequality in Shandong Province** 
-  * Led a research group to collect data on the use of electronic health (eHealth) resources from an
-online healthcare community involving more than 441,000 doctors and 31 provinces in China,
-by using Python packages, such as lxml and pandas.
-  * Cleaned and analyzed data with R-ggplot; utilized techniques such as visualizing the spatial
-distribution and density of highly-ranked hospitals and experienced professionals.
-  * Performed statistical analysis on eHealth online-to-offline spillover effects using the Spatial
-Durbin Panel Model to reduce autocorrelation by the Pesaran CD test; improved model fitness.
-  * Identified the spillover effects of eHealth services on health care inequity; provided ideas and
-strategies to address healthcare disparities using widely accessible eHealth resources.
+  * collect data on the use of electronic health (eHealth) resources from an
+online healthcare community involving more than 441,000 doctors and 31 provinces in China, by using Python packages, such as lxml and pandas.
+  * Cleaned and visualize data with R-ggplot; utilized techniques such as visualizing the spatial distribution and density of highly-ranked hospitals and experienced professionals on map.
+  * Performed statistical analysis on eHealth online-to-offline spillover effects using the Spatial Durbin Panel Model to reduce autocorrelation between regions; 
+  * Identified the spillover effects of eHealth services on health care inequity between regions; provided suggestions and strategies to address healthcare disparities using widely accessible eHealth resources.
   * Drafted and submitted a report to the 2020 Health Technology Assessment International
 Conference and 2019 Global Young Scholars Forum on Health Management
 
@@ -76,20 +69,12 @@ Conference and 2019 Global Young Scholars Forum on Health Management
 \hfill Jinan, China\newline
   _Research Assistant, Advisor: Prof. Jiajia Li_ \hfill 10/2018-06/2019\newline
   **Project: Effect of Insurance Plans on Catastrophic Healthcare Expenditures**
-  * Led a research group to conduct a longitudinal study on the effects of different insurance types
-on catastrophic healthcare expenditures.
-  * Conducted data cleansing and validation using R package – tidyverse; processed information
+  * Led a research group to conduct a study on the effects of different insurance types on catastrophic healthcare expenditures.
+  * Conducted data cleansing using R package – tidyverse; processed information
 from 44,417 observational sessions and identified 3,300 missing units of data and outliers.
-  * Collected information on geographical locations with Google Maps API and matched this with
-the insurance coverage provided by each plan as an instrumental variable for addressing the
-endogeneity introduced by insurance selection bias.
-  * Performed two-stage least square regression analysis to build a model with instrumental
-variables using R package -AER; concluded that China's new health insurance program has
-decreased the odds of catastrophic health expenditures but has failed to control total health
-expenditures.
-  * Provided quantitative evidence to forecast the financial expenditures of different healthcare
-insurance plans and to provide a reference for other researchers in the selection of instrumental
-variables.
+  * Collected geographical locations based on provided address with Google Maps API and matched location with the insurance coverage provided by each plan as an instrumental variable for addressing the endogeneity introduced by insurance selection bias.
+  * Performed two-stage least square regression analysis to build a model with instrumental variables using R package -AER; concluded that China's new health insurance program has decreased the odds of catastrophic health expenditures but has failed to control total health expenditures.
+  * Provided quantitative evidence to forecast the financial expenditures of different healthcare insurance plans and to provide a reference for other researchers in the selection of instrumental variables.
 
 <!-- - **Mapping Health: Tracking Population Health in Shandong Province, China**  -->
 <!-- \hfill Jinan, China\newline -->
@@ -118,13 +103,23 @@ variables.
 <!-- Economics Association and 2018 Healthcare Management Forum, hosted by Chinese Preventive -->
 <!-- Medicine Association. -->
 
+## PUBLICATION
+
+ Li,J., Li,S., Cao,W., Wang,Z., __Liang,Z.__, Fu, W., and Zhao, J. (2021). Appraisal of china’s response to the outbreak of covid-19 in comparison with sars. Frontiers in Public Health, 9:830
+<!-- \bibliographystyle{apalike} -->
+<!-- \bibliography{publication} -->
+
 ## WORK EXPERIENCE
 
 - Mailman School of Public Health-Columbia University \hfill New York
 \newline
- _Teaching Assistant_ \hfill 06/2021-PRESENT
-  * Course planning, material preparation and teaching lab session for `MIMIC Data Preparation and Sparse Coding` and  `Instrumental Variable Analysis Method` for High-Dimensional EHR data Bootcamp
-  * Course planning, holding office hour and grading for `Data Science I`
+ _Teaching Assistant_ \hfill 09/2021-PRESENT
+  * Course planning, material preparation and teaching lab session for `MIMIC Data Preparation and Sparse Coding` and  `Instrumental Variable Analysis Method` for __High-Dimensional EHR data Bootcamp__
+  
+- Mailman School of Public Health-Columbia University \hfill New York
+\newline
+ _Teaching Assistant_ __Data Science I P8105__\hfill 06/2021-09/2021
+  * Course planning, holding office hour and grading for __Data Science I__
 
 - National Health Development and Research Center of China Health Committee \hfill Beijing, China \newline
   _INTERN_ \hfill 06/2019-06/2020
