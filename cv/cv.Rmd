@@ -113,7 +113,7 @@ from 44,417 observational sessions and identified 3,300 missing units of data an
 
 - Mailman School of Public Health-Columbia University \hfill New York
 \newline
- _Teaching Assistant_ \hfill 09/2021-PRESENT
+ _Teaching Assistant_ __High-Dimensional EHR data Bootcamp__\hfill 09/2021-PRESENT
   * Course planning, material preparation and teaching lab session for `MIMIC Data Preparation and Sparse Coding` and  `Instrumental Variable Analysis Method` for __High-Dimensional EHR data Bootcamp__
   
 - Mailman School of Public Health-Columbia University \hfill New York
