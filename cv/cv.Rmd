@@ -40,15 +40,15 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
 \hfill New York\newline
   _Research Assistant, Advisor: Prof. Shuang Wang_ \hfill 04/2021-PRESENT\newline
   **Methodology Developing on Multi-omic Association and Clustering **
-  * Literature review on dimensional reduction, discrete time random walk and multi-view clustering and association singal boosting method
+  * Literature review on dimensional reduction, discrete time random walk and multi-view clustering and association singal boosting methods
   * Design simulation to test and compare existing multi-view clustering method, ie. Similarity Network Fusion(SNF), Multi-view Clustering Without Parameter(COMIC), Partition-level Multiview Subspace Clustering(PSMC), Diversity-Induce Multiview Clustering(DiMSC) and etc.; and association boosting method, ie. Disease-Specific Network Enhancement Prioritization(DISNEP), Gene-wanderer etc.
-  * Experiment above-mentioned methods with alternative manifold learning for new data representation, smoothing learned similarity matrix with t-step self random walk, multi-view fusion or consensus regulation, complementary regulation on clustering result to develop a method that can identify true number of clusters and clustering result under scenario which different view provide information only to find partial subtypes.
+  * Experiment above-mentioned methods with alternative manifold learning for new data representation, smoothing learned similarity matrix with t-step self random walk, multi-view fusion or consensus, complementary regulation on clustering result to develop a method that can identify true number of clusters and clustering result under scenario which different view provide information only to find partial subtypes.
   
 - **Department of Biostatistics, Columbia University**\hfill New York\newline
   _Research Assistant, Advisor: Prof. Ying Wei, Prof. Yifei Sun_ \hfill 09/2021-PRESENT\newline
   **Predicting Patient Aherence with Multivariate Random Forest**
-  * Design and code weighted multivariate random forest algorithm independently to predict medication adherence in a interval for an incomplete medication adherence history  data;
-  * Model missing pattern of the response variables under Missing At Random(MAR) assumption, and boosting compliance prediction model's performance with the predicted missing observation probability;
+  * Design and code weighted multivariate random forest algorithm independently to predict medication adherence in each interval for an incomplete medication adherence history  data;
+  * Model missing pattern of the response variables under Missing At Random(MAR) assumption considering the missingness was mostly due to researchers' decisions. And boost compliance prediction model's performance with the inverse predicted missing observation probability(IPW) and see variables importance of baseline variables;
   * Ensemble all trees with Hidden Markov Chains model for a dynamic prediction model;
   * Design simulation study to test algorithm performance and analysis on the data, we found that using IPW to adjust for missing data improves the prediction performance of our multivariate random forest under MAR in simulation and our adherence history data;
   * Manuscript writing
