@@ -47,7 +47,7 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
 - **Department of Biostatistics, Columbia University**\hfill New York\newline
   _Research Assistant, Advisor: Prof. Ying Wei, Prof. Yifei Sun_ \hfill 09/2021-PRESENT\newline
   **Predicting Patient Aherence with Multivariate Random Forest**
-  * Design and code weighted multivariate random forest algorithm independently to predict medication adherence in each interval for an incomplete medication adherence history  data;
+  * Design and code weighted multivariate random forest algorithm independently to capture the within interval pattern and predict medication adherence for an incomplete medication adherence history  data;
   * Model missing pattern of the response variables under Missing At Random(MAR) assumption considering the missingness was mostly due to researchers' decisions. And boost compliance prediction model's performance with the inverse predicted missing observation probability(IPW) and see variables importance of baseline hospitalization vital scores and mental status scores;
   * Ensemble all trees with Hidden Markov Chains model for a dynamic prediction model;
   * Design simulation study to test algorithm performance and analysis on the data, we found that using IPW to adjust for missing data improves the prediction performance of our multivariate random forest under MAR in simulation and our adherence history data;
