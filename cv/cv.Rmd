@@ -28,9 +28,9 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
 \end{center}
 
 ## EDUCATION
-- **INSTITUTE : COLUMBIA UNIVERSIY** \hfill New York City, U.S. \newline
+- **COLUMBIA UNIVERSIY** \hfill New York City, U.S. \newline
   MAJOR : MASTER CANDIDATE IN BIOSTATISTICS(4.07/4.3) \hfill 09/2020-PRESENT
-- **INSTITUTE : SHANDONG UNIVERSIY** \hfill Jinan, China\newline
+- **SHANDONG UNIVERSIY** \hfill Jinan, China\newline
   MAJOR : BACHELOR OF PUBLIC HEALTH(4.32/5) \hfill 09/2014-06/2019
   
 
