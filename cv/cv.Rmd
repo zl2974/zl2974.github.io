@@ -49,8 +49,8 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
   **Predicting Patient Adherence with Multivariate Random Forest**
   * Propose using an interval of compliance as estimator to capture the within interval pattern for predicting medication adherence for an incomplete medication adherence history data with their hospitalization record as predictors;
   * Design and code a weighted random forest for multiple response algorithm independently from framework to splitting criteria;
-  * Design simulation study to test algorithm performance and analysis on the data, we found that using IPW to adjust for missing data improves the prediction performance of our multivariate random forest under MAR in simulation;
-  * Model missing pattern of the response variables under Missing At Random(MAR) assumption considering the missingness was mostly due to researchers' decisions. And boost compliance prediction model's performance with the inverse predicted missing observation probability(IPW) and see variables importance of baseline hospitalization vital scores and mental status scores;
+  * Design simulation study to test algorithm performance and analysis on the data, we found that using inverse predicted missing observation probability(IPW) to adjust for missing data improves the prediction performance of our multivariate random forest under Missing At Random(MAR) in simulation;
+  * Model missing pattern of the response variables under MAR assumption considering the missingness was mostly due to researchers' decisions. And boost compliance prediction model's performance with the IPW and see variables importance of baseline hospitalization vital scores and mental status scores;
 
 - **Department of Social Health, Shandong University**
 \hfill Jinan, China\newline
