@@ -28,8 +28,10 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
 \end{center}
 
 ## EDUCATION
+- **VANDERBILT UNIVERSITY** \hfill Nashville, U.S \newline
+  MAJOR : DOCTORAL PROGRAM IN BIOSTATISTICS \hfill 08/2022-PRESENT
 - **COLUMBIA UNIVERSIY** \hfill New York City, U.S. \newline
-  MAJOR : MASTER CANDIDATE IN BIOSTATISTICS(4.07/4.3) \hfill 09/2020-PRESENT
+  MAJOR : MASTER CANDIDATE IN BIOSTATISTICS(4.07/4.3) \hfill 09/2020-06/2022
 - **SHANDONG UNIVERSIY** \hfill Jinan, China\newline
   MAJOR : BACHELOR OF PUBLIC HEALTH(4.32/5) \hfill 09/2014-06/2019
   
@@ -38,19 +40,18 @@ EMAIL 2 : \href{mailto:<jeffreyliang1995@outlook.com>}{jeffreyliang1995@outlook.
 
 - **Department of Biostatistics, Columbia University**
 \hfill New York\newline
-  _Research Assistant, Advisor: Prof. Shuang Wang_ \hfill 04/2021-PRESENT\newline
+  _Research Assistant, Advisor: Prof. Shuang Wang_ \hfill 04/2021-05/2022\newline
   **Methodology Developing on Multi-omic Clustering **
   * Literature review on data integration methods and multi-omics clustering
   * Design simulation to test and compare existing multi-omics clustering method, ie. Similarity Network Fusion(SNF), and co-training based Multi-view Clustering Without Parameter(COMIC), Partition-level Multiview Subspace Clustering(PSMC), Diversity-Induce Multiview Clustering(DiMSC) and etc.;
-  * Experiment above-mentioned methods with alternative method such as denoising learned similarity matrix with t-step self random walk, using different consensus, complementary regulation on iteratively updating to develop a method that can identify true number of clusters and clustering result under scenario which different view provide information only to find partial subtypes.
+  * Exploring improvement on the multi-omics clustering with the concept of consensus similarity matrix and data-specific similarity matrix to develop a method that can identify true number of clusters and clustering result under scenario which different view provide information only to find partial subtypes.
   
 - **Department of Biostatistics, Columbia University**\hfill New York\newline
-  _Research Assistant, Advisor: Prof. Ying Wei, Prof. Yifei Sun_ \hfill 09/2021-PRESENT\newline
-  **Predicting Patient Adherence with Multivariate Random Forest**
-  * Propose using an interval of compliance as estimator to capture the within interval pattern for predicting medication adherence for an incomplete medication adherence history data with their hospitalization record as predictors;
-  * Design and code a weighted random forest for multiple response algorithm independently from framework to splitting criteria;
-  * Design simulation study to test algorithm performance and analysis on the data, we found that using inverse predicted missing observation probability(IPW) to adjust for missing data improves the prediction performance of our multivariate random forest under Missing At Random(MAR) in simulation;
-  * Model missing pattern of the response variables under MAR assumption considering the missingness was mostly due to researchers' decisions. And boost compliance prediction model's performance with the IPW and see variables importance of baseline hospitalization vital scores and mental status scores;
+  _Research Assistant, Advisor: Prof. Ying Wei, Prof. Yifei Sun_ \hfill 09/2021-08/2022\newline
+  **Predicting Patient Adherence with Random Forest**
+  * Developing Random Forest base algorithm to explore and predict patient's medication pattern with ECAP medication adherence data.
+  * We changed the sampling to Within-cluster sampling and use missing incorporate in attribute in spliting to make random forest compatible with repeated measure incompeleted data.
+  * We develop Double Robust Random Forest at first as we treated the data as naive data; Followed by Longitudinal Random Forest as we view the data in longitudinal format; And  the latest Alternating Event Random Forest as we see the data in a Markov Process, to find best method for predicting a patient's future medication pattern.
 
 - **Department of Social Health, Shandong University**
 \hfill Jinan, China\newline
